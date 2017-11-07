@@ -1,0 +1,57 @@
+@media only screen and (max-width: 992px) {
+
+    .routes__item {
+        margin: 20px 0;
+        padding: 15px;
+        border: 1px solid #4D8C6C;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+
+    .routes__heading {
+        text-align: center;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+
+    .top-menu {
+        display: none;
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+    .top-phone-number {
+        flex-basis: 180px;
+    }
+
+    .r-tabs-anchor {
+        display: block;
+        text-align: center;
+        margin: 10px;
+        padding: 5px 10px;
+        color: #4D8C6C;
+        border: 1px solid #4D8C6C;
+        border-radius: 3px;
+        transition: all 0.35s ease 0s; }
+    .r-tabs-anchor:hover {
+        color: #305743;
+        border: 1px solid #305743; }
+
+    .contacts__wrapper {
+        flex-direction: column;
+    }
+
+
+    }
+@media only screen and (max-width: 480px) {
+
+    .top-phone-number {
+        display: none;
+    }
+    
+}
